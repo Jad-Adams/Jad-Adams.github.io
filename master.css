@@ -39,8 +39,8 @@ li {
 .button-primary{
     display:inline-block;
     padding: .6em 1.2em;
-    border:0.1em solid #FB9039;
-    background-color: #FB9039;
+    border:0.1em solid #E65722;
+    background-color: #E65722;
     margin: 1rem 0.3rem;
     border-radius:0.25em;
     text-decoration:none;
@@ -52,21 +52,21 @@ li {
 }
 
 .button-primary:hover{
-    border:0.1em solid #faaf72;
-    background-color: #faaf72;
+    border:0.1em solid #ff7644;
+    background-color:#ff7644;
 }
 
 
 .button-secondary {
     padding: .75em 1.2em;
-    border:0.1em solid #FB9039;
-    background-color: #fb903900;
+    border:0.1em solid #E65722;
+    background-color: #E6572200;
     margin:1rem 0.3rem;
     border-radius:0.25em;
     text-decoration: none;
     font-weight:300;
     font-size: 1rem;
-    color:#FB9039;
+    color:#E65722;
     text-align:center;
     transition: all 0.2s;
     height: 2.5rem;
@@ -78,8 +78,8 @@ li {
 }
 
 .button-secondary:hover{
-    background-color: #faaf72;
-    border:0.1em solid #faaf72;
+    background-color:#ff7644;
+    border:0.1em solid #ff7644;
     color: white;
 }
 
