@@ -1,0 +1,42 @@
+.nav-container{
+    align-items: center;
+    background-color: #3D3D3D;
+    display: flex;
+    font-family: 'Spectral', serif;
+    justify-content: space-between;
+    padding: .7rem 2rem;
+    flex-wrap: wrap;
+    /* flex-wrap is making sure the header links 
+    wrap around the header logo */ 
+}
+
+/* Logo and logotype start */
+
+.logo-container-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-home {
+    font-size: 1.75rem;
+    font-weight: 500;
+    padding-left: 1rem;
+    text-decoration: none;
+}
+
+/* Logo and logotype end */
+
+.nav-home, .nav-link  {
+    color: #fff;
+}
+
+.nav-link {
+    font-size: 1.125rem;
+    margin: auto 1.75rem;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+}
