@@ -4,10 +4,15 @@
     display: flex;
     font-family: 'Spectral', serif;
     justify-content: space-between;
-    padding: .7rem 2rem;
+    padding: .7rem 5%;
     flex-wrap: wrap;
     /* flex-wrap is making sure the header links 
     wrap around the header logo */ 
+}
+
+.nav-option {
+    display: inline-flex;
+    list-style: none;
 }
 
 /* Logo and logotype start */
@@ -15,6 +20,7 @@
 .logo-container-list {
     display: flex;
     align-items: center;
+    padding: 0;
 }
 
 .nav-home {
@@ -30,6 +36,8 @@
     color: #fff;
 }
 
+/* Nav links start */
+
 .nav-link {
     font-size: 1.125rem;
     margin: auto 1.75rem;
@@ -37,6 +45,14 @@
 }
 
 .nav-link:hover {
-    border-bottom: 1px solid #fff;
-    padding-bottom: 2px;
+    text-decoration: underline;
 }
+
+/* Nav links end */
+
+@media (max-width: 1051px){
+    .nav-container{
+        justify-content: center;
+    }
+
+    }

@@ -7,97 +7,100 @@
     <title>Dovahkiin Getaways</title>
     <link rel="icon" href="sk-images\dg-favicons\ms-icon-310x310.png">
     <link rel="stylesheet" href="master.css">
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="top-nav.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Lovers+Quarrel&family=Spectral:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
 </head>
 <!-- Header navigation start -->
-<section>
-    <div class="top-nav">
-        <div class="nav-logo-container">
-            <ul>
-                <li class="nav-options"><img class="nav-logo" src="sk-images\dg-icons\Dovahkiin-Getaways-w.svg"
-                        style="height:3rem; width: 3rem;" alt="dg-logo"></li>
-                <li class="nav-options"><a class="nav-home" href="">Dovahkiin Getaways</a></li>
-            </ul>
-        </div>
-        <div class="nav-link-container">
-            <ul>
-                <li class="nav-option"><a class="nav-link" href="#">Adventures</a></li>
-                <li class="nav-option"><a class="nav-link" href="#">Destinations</a></li>
-                <li class="nav-option"><a class="nav-link" href="#">Extras</a></li>
-                <li class="nav-option"><a class="nav-link" href="#">About</a></li>
-            </ul>
-        </div>
-    </div>
-</section>
-<!-- Header navigation end -->
 
 <body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo-container">
+                <ul class="logo-container-list">
+                    <li class="nav-option"><img class="nav-logo" src="sk-images\dg-icons\Dovahkiin-Getaways-w.svg"
+                            style="height:3rem; width: 3rem;" alt="dg-logo"></li>
+                    <li class="nav-option"><a class="nav-home" href="">Dovahkiin Getaways</a></li>
+                </ul>
+            </div>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li class="nav-option"><a class="nav-link" href="#">Adventures</a></li>
+                    <li class="nav-option"><a class="nav-link" href="#">Destinations</a></li>
+                    <li class="nav-option"><a class="nav-link" href="#">Extras</a></li>
+                    <li class="nav-option"><a class="nav-link" href="#">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header navigation end -->
+
     <div style="background-image: url(sk-images/header-bg.jpg); height:43.75rem;">
         <h1 class="main-title">Choose your adventure</h1>
+
         <!-- Holiday form start -->
         <div class="holiday-finder">
-            <form action=""></form>
-            <div class="holiday-block">
-                <label class="label-holiday" for="travel-from-select">Where are you travelling from?</label>
-                <br>
-                <select name="travel-from" id="travel-from-select">
-                    <option value="">Select your location</option>
-                    <option value="black-marsh">Black Marsh</option>
-                    <option value="cyrodiil">Cyrodiil</option>
-                    <option value="elsweyr">Elsweyr</option>
-                    <option value="hammerfell">Hammerfell</option>
-                    <option value="high-rock">High Rock</option>
-                    <option value="morrowind">Morrowind</option>
-                    <option value="summerset-isle">Summerset Isle</option>
-                    <option value="valenwood">Valenwood</option>
-                </select>
-            </div>
+            <form>
+                <div class="holiday-block">
+                    <label class="label-holiday" for="travel-from-select">Where are you travelling from?</label>
+                    <br>
+                    <select name="travel-from" id="travel-from-select">
+                        <option value="">Select your location</option>
+                        <option value="black-marsh">Black Marsh</option>
+                        <option value="cyrodiil">Cyrodiil</option>
+                        <option value="elsweyr">Elsweyr</option>
+                        <option value="hammerfell">Hammerfell</option>
+                        <option value="high-rock">High Rock</option>
+                        <option value="morrowind">Morrowind</option>
+                        <option value="summerset-isle">Summerset Isle</option>
+                        <option value="valenwood">Valenwood</option>
+                    </select>
+                </div>
 
-            <div class="holiday-block">
-                <label class="label-holiday" for="travel-to">Destination</label>
-                <br>
-                <select name="travel-to" id="travel-to-select">
-                    <option value="">Select your destination</option>
-                    <option value="windhelm">Windhelm</option>
-                </select>
-            </div>
+                <div class="holiday-block">
+                    <label class="label-holiday" for="travel-to">Destination</label>
+                    <br>
+                    <select name="travel-to" id="travel-to-select">
+                        <option value="">Select your destination</option>
+                        <option value="windhelm">Windhelm</option>
+                    </select>
+                </div>
 
-            <div class="holiday-block">
-                <label class="label-holiday" for="nights-stay-select">No. of nights</label>
-                <br>
-                <select name="nights-stay" id="nights-stay-select">
-                    <option value="">---</option>
-                    <option value="3">3 nights</option>
-                    <option value="7">7 nights</option>
-                    <option value="9">9 nights</option>
-                    <option value="10">10 nights</option>
-                    <option value="11">11 nights</option>
-                    <option value="30">30 nights</option>
-                </select>
-            </div>
+                <div class="holiday-block">
+                    <label class="label-holiday" for="nights-stay-select">No. of nights</label>
+                    <br>
+                    <select name="nights-stay" id="nights-stay-select">
+                        <option value="">---</option>
+                        <option value="3">3 nights</option>
+                        <option value="7">7 nights</option>
+                        <option value="9">9 nights</option>
+                        <option value="10">10 nights</option>
+                        <option value="11">11 nights</option>
+                        <option value="30">30 nights</option>
+                    </select>
+                </div>
 
-            <div class="holiday-block">
-                <label class="label-holiday" for="travellers-select">Travellers</label>
-                <br>
-                <select name="travellers" id="travellers-select">
-                    <option value="">---</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="4-plus">4+</option>
-                </select>
-            </div>
-            <button type="button" class="button-primary">Search</button>
-            <p id="clear">Clear</p>
+                <div class="holiday-block">
+                    <label class="label-holiday" for="travellers-select">Travellers</label>
+                    <br>
+                    <select name="travellers" id="travellers-select">
+                        <option value="">---</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="4-plus">4+</option>
+                    </select>
+                </div>
+                <button type="button" class="button-primary"><a class="button-primary-link" href="travel-routes.html">Search</a></button>
+                <p id="clear">Clear</p>
             </form>
         </div>
-
-        <!-- Holiday form end -->
     </div>
+
+    <!-- Holiday form end -->
 
     <!-- Separator start -->
 
@@ -109,9 +112,9 @@
 
     <!-- Separator end -->
 
-    <!-- Popular [Destinations] cards start -->
+    <!-- Popular Destinations cards start -->
     <div class="section">
-        <h3>Popular destinations</h3>
+        <h3 class="section-title">Popular destinations</h3>
         <article class="article-card">
             <div class="card-container">
                 <div><img class="card-img" src="sk-images\solitude-main.jpg"></div>
@@ -143,24 +146,25 @@
                     <h4 class="card-title">Falkreath</h4>
                     <p class="card-description">The town lies in the southwest of the province of Skyrim, near the
                         borders of Hammerfell and Cyrodiil.</p>
-                    </div>
-                    <button class="button-primary card-button">Explore</button>
                 </div>
-            </article>
-            <button class="button-secondary button-secondary-center">See all</button>
-        </div>
-        
-        <!-- Popular [Destinations] cards end -->
-        
-        <!-- Popular [Adventures] cards start -->
-        <div class="section section-background">
-        <h3>Popular adventures</h3>
+                <button class="button-primary card-button">Explore</button>
+            </div>
+        </article>
+        <button class="button-secondary button-secondary-center">See all</button>
+    </div>
+
+    <!-- Popular Destinations cards end -->
+
+    <!-- Popular Adventures cards start -->
+    <div class="section section-background">
+        <h3 class="section-title">Popular adventures</h3>
         <article class="article-card">
             <div class="card-container">
                 <div><img class="card-img" src="sk-images\windward-ruins-main.jpg"></div>
                 <div class="card-content">
                     <h4 class="card-title">Windward ruins</h4>
-                    <p class="card-description">The remains of an abandoned fort, located southwest of Dawnstar. Was once used for Kyne's Sacred Trials..</p>
+                    <p class="card-description">The remains of an abandoned fort, located southwest of Dawnstar. Was
+                        once used for Kyne's Sacred Trials..</p>
                 </div>
                 <button class="button-primary card-button">Explore</button>
             </div>
@@ -171,7 +175,8 @@
                 <div><img class="card-img" src="sk-images\pinefrosttower-main.jpg"></div>
                 <div class="card-content">
                     <h4 class="card-title">Pineforest tower</h4>
-                    <p class="card-description">This fallen tower lies atop Haafingar's western mountains, a short distance from Northwatch Keep.</p>
+                    <p class="card-description">This fallen tower lies atop Haafingar's western mountains, a short
+                        distance from Northwatch Keep.</p>
                 </div>
                 <button class="button-primary card-button">Explore</button>
             </div>
@@ -182,14 +187,15 @@
                 <div><img class="card-img" src="sk-images\guldun-rock-main.png"></div>
                 <div class="card-content">
                     <h4 class="card-title">Guldun rock cave</h4>
-                    <p class="card-description">A cave located in Whiterun Hold. It isn't unusual to see giants roaming the area with their mammoth herd.</p>
+                    <p class="card-description">A cave located in Whiterun Hold. It isn't unusual to see giants roaming
+                        the area with their mammoth herd.</p>
                 </div>
                 <button class="button-primary card-button">Explore</button>
             </div>
         </article>
         <button class="button-secondary button-secondary-center">See all</button>
     </div>
-    <!-- Popular [Adventures] cards end -->
+    <!-- Popular Adventures cards end -->
 </body>
 
 <footer>
