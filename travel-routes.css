@@ -2,13 +2,22 @@ main {
     padding: 0 10%;
 }
 
-a {
+.info-copy-container {
+    /* width: 60%; */
+    max-width: 60%;
+}
+
+.info-copy {
+    line-height: 1.5;
+}
+
+.info-link {
     color: #E65722;
     text-decoration: none;
 }
 
-a:hover {
-    color:#ff7644;
+.info-link:hover {
+    color: #ff7644;
     text-decoration: none;
 }
 
@@ -51,4 +60,17 @@ a:hover {
     .travel-option-button-1, .travel-option-button-2 {
         padding: 0.625rem 0;
     }
+}
+
+.cost-container {
+    text-align: end;
+    margin: 3.125rem 0;
+}
+
+.cost-container button {
+    margin: 0;
+}
+
+#total-cost {
+    font-size: 2rem;
 }
